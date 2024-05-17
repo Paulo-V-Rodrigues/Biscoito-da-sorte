@@ -8,16 +8,25 @@
 
 :root {
     font-size: 62.5%;
-}
-
-body {
     background: linear-gradient(287.56deg, #BB00ff 0%, #190361 100%);
 }
 
+body {
+    font-family: "montserrat";
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+article {
+    font-family: "dm sans";
+}
+
+
 main {
     background-color: white;
-    width: 42.8rem;
-    height: 42.4rem;
-    margin: auto;
+    width: min(42.8rem, 90%);
+    padding: 4.28rem 4.24rem 5.4rem;
     box-shadow: 0.3rem 0.3rem 0.5rem;
+    border-radius: .6rem;
 }

@@ -11,5 +11,13 @@
 }
 
 body {
-    background-color: #BB00ff ;
+    background: linear-gradient(287.56deg, #BB00ff 0%, #190361 100%);
+}
+
+main {
+    background-color: white;
+    width: 42.8rem;
+    height: 42.4rem;
+    margin: auto;
+    box-shadow: 0.3rem 0.3rem 0.5rem;
 }

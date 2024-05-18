@@ -18,6 +18,10 @@ body {
     height: 100vh;
 }
 
+.hide {
+    display: none;
+}
+
 main {
     background-color: white;
     width: min(42.8rem, 90%);
@@ -28,11 +32,12 @@ main {
     text-align: center;
 }
 
-/*text*/
+/*screen1*/
 
-h1 {
+h1, h2 {
     font-family: "montserrat";
     font-size: 2.4rem;
+    color: #190361;
 }
 
 article {
@@ -41,9 +46,35 @@ article {
     padding: 1.0rem;
     }
 
-/*button*/
-
 button {
     border: none;
     background-color: white;
+}
+
+/*screen2*/
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    background-color: #FF9500;
+    color: white;
+    width: min(42.8rem, 90%);
+    padding: 1.0rem 1.6rem 1.6rem;
+    text-align: center;
+
+    font-family: "dm sans";
+}
+
+.text2 {
+    background-color: #E4EDF1;
+    font-family: "dancing script";
+    font-weight: 400;
+    font-size: 2.0rem;
+    height: 7.4rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem;
+    text-align: center;
 }

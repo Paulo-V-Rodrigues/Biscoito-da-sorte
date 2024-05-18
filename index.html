@@ -12,21 +12,35 @@
     <link rel="stylesheet" href="estilo/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <main>
-        <header>
-            <h1>
-                Qual é a sua sorte de hoje?
-            </h1>
-        </header>
-        <article>
-            Abra o biscoito e descubra!
-        </article>
+        <div class="screen1 hide">
+            <header>
+                <h1>
+                    Qual é a sua sorte de hoje?
+                </h1>
+            </header>
+            <article>
+                Abra o biscoito e descubra!
+            </article>
 
-        <button><img src="./estilo/fortune-cookie.png" alt="Biscoito"></button>
-        
+            <button><img src="./estilo/fortune-cookie.png" alt="Biscoito"></button>
+        </div>
+
+        <div class="screen2">
+            <h2>
+                Aqui está a sua sorte de hoje:
+            </h2>
+
+            <article class="text2"><strong>Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</strong></article>
+
+            <img src="./estilo/opened-cookie.png" alt="Biscoito Aberto">
+
+            <button>Abrir outro biscoito</button>
+        </div>
     </main>
 </body>
 </html>

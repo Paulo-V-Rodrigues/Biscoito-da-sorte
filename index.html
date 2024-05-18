@@ -17,7 +17,7 @@
 </head>
 <body>
     <main>
-        <div class="screen1 hide">
+        <div class="screen1 ">
             <header>
                 <h1>
                     Qual é a sua sorte de hoje?
@@ -27,10 +27,10 @@
                 Abra o biscoito e descubra!
             </article>
 
-            <button><img src="./estilo/fortune-cookie.png" alt="Biscoito"></button>
+            <button onclick="handClick(event)"><img src="./estilo/fortune-cookie.png" alt="Biscoito"></button>
         </div>
 
-        <div class="screen2">
+        <div class="screen2 hide">
             <h2>
                 Aqui está a sua sorte de hoje:
             </h2>
@@ -42,5 +42,6 @@
             <button>Abrir outro biscoito</button>
         </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>

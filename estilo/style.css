@@ -59,13 +59,15 @@ h2 {
     margin-bottom: 3.3rem;
 }
 
+
 .screen2 button {
     background-color: #FF9500;
     color: white;
     width: min(42.8rem, 90%);
     padding: 1.0rem 1.6rem 1.6rem;
     text-align: center;
-
+    
+    
     font-family: "dm sans";
 }
 
